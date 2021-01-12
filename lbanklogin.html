@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<style>
+    .main{
+        margin-top: 10%;
+    }
+</style>
+<script src=loginBank.js></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8"><h1>Welcome to SBT bank</h1></div>
+                <div class="col-2"></div>
+            </div>
+
+            <form>
+                <div class="mb-3">
+                  <label for="UserName" class="form-label">User Name</label>
+                  <input type="text" class="form-control" id="uname">
+                  <label for="" id="ulabel"></label>
+                </div>
+                <div class="mb-3">
+                  <label for="Password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pwd">
+                </div>
+               
+                <button type="button" class="btn btn-primary" onclick="Bank.login()">Login</button>
+              </form>
+        </div>
+    </div>
+</body>
+</html>
